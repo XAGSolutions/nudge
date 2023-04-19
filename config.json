@@ -5,7 +5,7 @@
     "acceptableCameraUsage": false,
     "acceptableScreenSharingUsage": false,
     "aggressiveUserExperience": true,
-    "aggressiveUserFullScreenExperience": true,
+    "aggressiveUserFullScreenExperience": false,
     "asynchronousSoftwareUpdate": true,
     "attemptToBlockApplicationLaunches": false,
     "attemptToFetchMajorUpgrade": true,
@@ -62,6 +62,7 @@
       {
         "_language": "en",
         "actionButtonText": "Run Update",
+        "customDeferralButtonText": "Custom",
         "customDeferralDropdownText": "Defer",
         "informationButtonText": "More Info",
         "mainContentHeader": "Your device will restart during this update",
