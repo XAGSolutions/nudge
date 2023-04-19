@@ -53,10 +53,10 @@
     "forceScreenShotIcon": false,
     "iconDarkPath": "/Users/Shared/XAG_XLogomark_Digital_White.png",
     "iconLightPath": "/Users/Shared/XAG_XLogomark_Digital_Black.png",
-    "screenShotDarkPath": "/Users/bryceblood/Desktop/Dragonfly.png",
-    "screenShotLightPath": "/Users/bryceblood/Desktop/Dragonfly.png",
+    "screenShotDarkPath": "/Users/Shared/Branding/Dark_Screenshot.png",
+    "screenShotLightPath": "/Users/Shared/Branding/Light_Screenshot.pngg",
     "showDeferralCount": false,
-    "simpleMode": false,
+    "simpleMode": true,
     "singleQuitButton": false,
     "updateElements": [
       {
