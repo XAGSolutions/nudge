@@ -22,7 +22,7 @@
           "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
         }
       ],
-      "requiredInstallationDate": "20252-10-15T00:00:00Z",
+      "requiredInstallationDate": "2023-10-15T00:00:00Z",
       "requiredMinimumOSVersion": "13.3.4",
       "targetedOSVersionsRule": "default"
     }
@@ -56,7 +56,7 @@
     "screenShotDarkPath": "/Users/Shared/Branding/Dark_Screenshot.png",
     "screenShotLightPath": "/Users/Shared/Branding/Light_Screenshot.pngg",
     "showDeferralCount": false,
-    "simpleMode": true,
+    "simpleMode": false,
     "singleQuitButton": false,
     "updateElements": [
       {
