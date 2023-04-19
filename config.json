@@ -19,7 +19,7 @@
       "aboutUpdateURLs": [
         {
           "_language": "en",
-          "aboutUpdateURL": "https://support.apple.com/en-us/HT213721"
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
         }
       ],
       "requiredInstallationDate": "20252-10-15T00:00:00Z",
@@ -53,8 +53,8 @@
     "forceScreenShotIcon": false,
     "iconDarkPath": "/Users/Shared/XAG_XLogomark_Digital_White.png",
     "iconLightPath": "/Users/Shared/XAG_XLogomark_Digital_Black.png",
-    "screenShotDarkPath": "/somewhere/screenShotDark.png",
-    "screenShotLightPath": "/somewhere/screenShotLight.png",
+    "screenShotDarkPath": "/Users/bryceblood/Desktop/Dragonfly.png",
+    "screenShotLightPath": "/Users/bryceblood/Desktop/Dragonfly.png",
     "showDeferralCount": false,
     "simpleMode": false,
     "singleQuitButton": false,
