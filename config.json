@@ -23,7 +23,7 @@
         }
       ],
       "requiredInstallationDate": "2023-05-10T00:00:00Z",
-      "requiredMinimumOSVersion": "13.3.1",
+      "requiredMinimumOSVersion": "13.3.1 (a)",
       "targetedOSVersionsRule": "default"
     }
   ],
