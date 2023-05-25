@@ -15,11 +15,11 @@
   },
   "osVersionRequirements": [
     {
-      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT213268",
+      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT201222",
       "aboutUpdateURLs": [
         {
           "_language": "en",
-          "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT201222"
         }
       ],
       "requiredInstallationDate": "2023-05-26T00:00:00Z",
