@@ -22,7 +22,7 @@
           "aboutUpdateURL": "https://support.apple.com/en-us/HT201222"
         }
       ],
-      "requiredInstallationDate": "2023-10-12T00:00:00Z",
+      "requiredInstallationDate": "2023-10-30T00:00:00Z",
       "requiredMinimumOSVersion": "13.6",
       "targetedOSVersionsRule": "default"
     }
