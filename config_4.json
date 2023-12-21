@@ -62,7 +62,10 @@
     "screenShotDarkPath": "/Users/Shared/_Branding/Dark_Screenshot.png",
     "screenShotLightPath": "/Users/Shared/_Branding/Light_Screenshot.png",
     "showDeferralCount": false,
-    "simpleMode": true,
+    "allow1HourDeferralButton": false,
+    "allow24HourDeferralButton": false,
+    "allowCustomDeferralButton": false,
+    "simpleMode": false,
     "singleQuitButton": true,
     "updateElements": [
       {
