@@ -63,7 +63,7 @@
     "screenShotLightPath": "/Users/Shared/_Branding/Light_Screenshot.png",
     "showDeferralCount": false,
     "simpleMode": false,
-    "singleQuitButton": false,
+    "singleQuitButton": true,
     "updateElements": [
       {
                 "_language": "en",
