@@ -15,26 +15,26 @@
     },
     "osVersionRequirements": [
         {
-            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT214038",
+            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT201222",
             "aboutUpdateURLs": [
                 {
                     "_language": "en",
-                    "aboutUpdateURL": "https://support.apple.com/en-us/HT214038"
+                    "aboutUpdateURL": "https://support.apple.com/en-us/HT201222"
                 }
             ],
             "actionButtonPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
             "majorUpgradeAppPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
-            "requiredInstallationDate": "2024-01-05T00:00:00Z",
+            "requiredInstallationDate": "2024-01-15T00:00:00Z",
             "requiredMinimumOSVersion": "13.6.3",
             "targetedOSVersionsRule": "default"
         }
     ],
     "userExperience": {
         "allowGracePeriods": false,
-        "allowLaterDeferralButton": true,
-        "allowUserQuitDeferrals": true,
+        "allowLaterDeferralButton": false,
+        "allowUserQuitDeferrals": false,
         "allowedDeferrals": 1000000,
-        "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+        "allowedDeferralsUntilForcedSecondaryQuitButton": 1000000,
         "approachingRefreshCycle": 6000,
         "approachingWindowTime": 72,
         "calendarDeferralUnit": "imminentWindowTime",
@@ -53,20 +53,20 @@
         "randomDelay": false
     },
    "userInterface": {
-    "actionButtonPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
-    "fallbackLanguage": "en",
-    "forceFallbackLanguage": false,
-    "forceScreenShotIcon": false,
-    "iconDarkPath": "/Users/Shared/XAG_XLogomark_Digital_White.png",
-    "iconLightPath": "/Users/Shared/XAG_XLogomark_Digital_Black.png",
-    "screenShotDarkPath": "/Users/Shared/_Branding/Dark_Screenshot.png",
-    "screenShotLightPath": "/Users/Shared/_Branding/Light_Screenshot.png",
-    "showDeferralCount": false,
-    "simpleMode": false,
-    "singleQuitButton": false,
-    "updateElements": [
+            "actionButtonPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
+            "fallbackLanguage": "en",
+            "forceFallbackLanguage": false,
+            "forceScreenShotIcon": false,
+            "iconDarkPath": "/Users/Shared/XAG_XLogomark_Digital_White.png",
+            "iconLightPath": "/Users/Shared/XAG_XLogomark_Digital_Black.png",
+            "screenShotDarkPath": "/Users/Shared/_Branding/Dark_Screenshot.png",
+            "screenShotLightPath": "/Users/Shared/_Branding/Light_Screenshot.png",
+            "showDeferralCount": false,
+            "simpleMode": false,
+            "singleQuitButton": true,
+            "updateElements": [
       {
-                "_language": "en",
+                 "_language": "en",
         "actionButtonText": "Run Update",
         "customDeferralButtonText": "Custom",
         "customDeferralDropdownText": "Defer",
@@ -76,7 +76,7 @@
         "mainContentSubHeader": "Updates can take around 30 minutes to complete",
         "mainContentText": "A fully up-to-date device is required to ensure that XAG Solutions can accurately protect your device.\n\nIf you do not update your device, you may lose access to some items necessary for your day-to-day tasks.\n\nTo begin the update, simply click on the Run Update button and follow the provided steps.",
         "mainHeader": "Your device requires a software update",
-        "oneDayDeferralButtonText": "One Day",
+        "oneDayDeferralButtonText": "Skip",
         "oneHourDeferralButtonText": "One Hour",
         "primaryQuitButtonText": "Later",
         "secondaryQuitButtonText": "I understand",
