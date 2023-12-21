@@ -62,7 +62,7 @@
     "screenShotDarkPath": "/Users/Shared/_Branding/Dark_Screenshot.png",
     "screenShotLightPath": "/Users/Shared/_Branding/Light_Screenshot.png",
     "showDeferralCount": false,
-    "simpleMode": false,
+    "simpleMode": true,
     "singleQuitButton": true,
     "updateElements": [
       {
