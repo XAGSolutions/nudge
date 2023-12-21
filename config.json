@@ -1,52 +1,58 @@
 {
-  "optionalFeatures": {
-    "acceptableApplicationBundleIDs": [],
-    "acceptableAssertionUsage": false,
-    "acceptableCameraUsage": false,
-    "acceptableScreenSharingUsage": false,
-    "aggressiveUserExperience": false,
-    "aggressiveUserFullScreenExperience": false,
-    "asynchronousSoftwareUpdate": true,
-    "attemptToBlockApplicationLaunches": false,
-    "attemptToFetchMajorUpgrade": true,
-    "blockedApplicationBundleIDs": [],
-    "enforceMinorUpdates": true,
-    "terminateApplicationsOnLaunch": false
-  },
-  "osVersionRequirements": [
-    {
-      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT201222",
-      "aboutUpdateURLs": [
+    "optionalFeatures": {
+        "acceptableApplicationBundleIDs": [],
+        "acceptableAssertionUsage": false,
+        "acceptableCameraUsage": false,
+        "acceptableScreenSharingUsage": false,
+        "aggressiveUserExperience": true,
+        "aggressiveUserFullScreenExperience": true,
+        "asynchronousSoftwareUpdate": true,
+        "attemptToBlockApplicationLaunches": false,
+        "attemptToFetchMajorUpgrade": true,
+        "blockedApplicationBundleIDs": [],
+        "enforceMinorUpdates": true,
+        "terminateApplicationsOnLaunch": false
+    },
+    "osVersionRequirements": [
         {
-          "_language": "en",
-          "aboutUpdateURL": "https://support.apple.com/en-us/HT201222"
+            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT214038",
+            "aboutUpdateURLs": [
+                {
+                    "_language": "en",
+                    "aboutUpdateURL": "https://support.apple.com/en-us/HT214038"
+                }
+            ],
+            "actionButtonPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
+            "majorUpgradeAppPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
+            "requiredInstallationDate": "2024-01-05T00:00:00Z",
+            "requiredMinimumOSVersion": "13.6.3",
+            "targetedOSVersionsRule": "default"
         }
-      ],
-      "requiredInstallationDate": "2024-01-05T00:00:00Z",
-      "requiredMinimumOSVersion": "13.6.2",
-      "targetedOSVersionsRule": "default"
-    }
-  ],
-  "userExperience": {
-    "allowGracePeriods": true,
-    "allowUserQuitDeferrals": false,
-    "allowedDeferrals": 100,
-    "allowedDeferralsUntilForcedSecondaryQuitButton": 50,
-    "approachingRefreshCycle": 6000,
-    "approachingWindowTime": 72,
-    "elapsedRefreshCycle": 300,
-    "gracePeriodInstallDelay": 23,
-    "gracePeriodLaunchDelay": 1,
-    "gracePeriodPath": "/private/var/db/.AppleSetupDone",
-    "imminentRefreshCycle": 600,
-    "imminentWindowTime": 24,
-    "initialRefreshCycle": 18000,
-    "maxRandomDelayInSeconds": 1200,
-    "noTimers": false,
-    "nudgeRefreshCycle": 60,
-    "randomDelay": false
-  },
-  "userInterface": {
+    ],
+    "userExperience": {
+        "allowGracePeriods": false,
+        "allowLaterDeferralButton": true,
+        "allowUserQuitDeferrals": true,
+        "allowedDeferrals": 1000000,
+        "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+        "approachingRefreshCycle": 6000,
+        "approachingWindowTime": 72,
+        "calendarDeferralUnit": "imminentWindowTime",
+        "elapsedRefreshCycle": 300,
+        "gracePeriodInstallDelay": 23,
+        "gracePeriodLaunchDelay": 1,
+        "gracePeriodPath": "/private/var/db/.AppleSetupDone",
+        "imminentRefreshCycle": 600,
+        "imminentWindowTime": 24,
+        "initialRefreshCycle": 18000,
+        "launchAgentIdentifier": "com.github.macadmins.Nudge",
+        "loadLaunchAgent": false,
+        "maxRandomDelayInSeconds": 1200,
+        "noTimers": false,
+        "nudgeRefreshCycle": 60,
+        "randomDelay": false
+    },
+   "userInterface": {
     "actionButtonPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
     "fallbackLanguage": "en",
     "forceFallbackLanguage": false,
@@ -60,7 +66,7 @@
     "singleQuitButton": false,
     "updateElements": [
       {
-        "_language": "en",
+                "_language": "en",
         "actionButtonText": "Run Update",
         "customDeferralButtonText": "Custom",
         "customDeferralDropdownText": "Defer",
@@ -76,6 +82,6 @@
         "secondaryQuitButtonText": "I understand",
         "subHeader": "Important Notification from XAG Solutions"
       }
-    ]
-  }
+        ]
+    }
 }
