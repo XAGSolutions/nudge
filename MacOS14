@@ -22,8 +22,8 @@
                     "aboutUpdateURL": "https://support.apple.com/en-us/HT201222"
                 }
             ],
-            "actionButtonPath": "/Users/bryceblood/Desktop/openupdate.sh",
-            "majorUpgradeAppPath": "/Users/bryceblood/Desktop/openupdate.sh",
+            "actionButtonPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
+            "majorUpgradeAppPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
             "requiredInstallationDate": "2024-08-28T00:00:00Z",
             "requiredMinimumOSVersion": "14.2",
             "targetedOSVersionsRule": "default"
