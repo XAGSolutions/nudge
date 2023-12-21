@@ -61,6 +61,7 @@
             "iconLightPath": "/Users/Shared/XAG_XLogomark_Digital_Black.png",
             "screenShotDarkPath": "/Users/Shared/_Branding/Dark_Screenshot.png",
             "screenShotLightPath": "/Users/Shared/_Branding/Light_Screenshot.png",
+            "showDeferralCount": false,
             "simpleMode": false,
             "singleQuitButton": true,
             "updateElements": [
