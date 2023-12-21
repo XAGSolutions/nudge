@@ -15,11 +15,11 @@
     },
     "osVersionRequirements": [
         {
-            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT201222",
+            "aboutUpdateURL_disabled": "https://hudu.xagsolutions.com/shared_article/6iDhjT3wubB6jKDqBpqbYGHT",
             "aboutUpdateURLs": [
                 {
                     "_language": "en",
-                    "aboutUpdateURL": "https://support.apple.com/en-us/HT201222"
+                    "aboutUpdateURL": "https://hudu.xagsolutions.com/shared_article/6iDhjT3wubB6jKDqBpqbYGHT"
                 }
             ],
             "actionButtonPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
