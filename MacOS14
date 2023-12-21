@@ -4,8 +4,8 @@
         "acceptableAssertionUsage": false,
         "acceptableCameraUsage": false,
         "acceptableScreenSharingUsage": false,
-        "aggressiveUserExperience": true,
-        "aggressiveUserFullScreenExperience": true,
+        "aggressiveUserExperience": false,
+        "aggressiveUserFullScreenExperience": false,
         "asynchronousSoftwareUpdate": true,
         "attemptToBlockApplicationLaunches": false,
         "attemptToFetchMajorUpgrade": true,
@@ -24,8 +24,8 @@
             ],
             "actionButtonPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
             "majorUpgradeAppPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
-            "requiredInstallationDate": "2024-08-28T00:00:00Z",
-            "requiredMinimumOSVersion": "14.2",
+            "requiredInstallationDate": "2024-01-15T00:00:00Z",
+            "requiredMinimumOSVersion": "14.2.1",
             "targetedOSVersionsRule": "default"
         }
     ],
