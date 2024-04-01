@@ -24,7 +24,7 @@
             ],
             "actionButtonPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
             "majorUpgradeAppPath": "/System/Library/PreferencePanes/SoftwareUpdate.prefPane",
-            "requiredInstallationDate": "2024-01-15T00:00:00Z",
+            "requiredInstallationDate": "2024-04-07T00:00:00Z",
             "requiredMinimumOSVersion": "14.4.1",
             "targetedOSVersionsRule": "default"
         }
